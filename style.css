@@ -1,0 +1,147 @@
+/ --- put your css here --- /
+
+/* external css is imported into html using the <link> tag in the <head> section, as shown below.
+
+<head>
+<link rel="stylesheet" href="assignment02.css">
+</head>
+
+*/
+
+
+/ --- pre-existing css --- /
+  .stripey tr:nth-child(even) {
+background-color: white;
+}
+
+.stripey tr:nth-child(odd) {
+background-color: white;
+}
+
+.stripey th {
+color: white;
+background-color: black;
+}
+
+.mousey td:hover {
+background-color: yellow;
+}
+
+.rightey td {
+text-align: right;
+}
+
+input[type="text"].pinkey:focus {
+background-color: pink;
+}
+
+#igottabeme {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.classy {
+padding-left: 10px;
+}
+
+#d1
+{
+	margin-bottom: 50px;
+}
+
+#d2
+{
+	margin-bottom: 50px;
+}
+
+
+#d3
+{
+	margin-bottom: 50px;
+}
+
+
+
+#d1 span{
+width: 100px;
+height: 50px;
+padding: 5px 20px 5px 20px;
+border: solid 50px blue;
+background-color: yellow;
+}
+
+#d2 span{
+width: 100px;
+height: 50px;
+padding: 5px 20px 5px 20px;
+border: solid 50px blue;
+background-color: yellow;
+
+}
+
+
+#d span{
+width: 100px;
+height: 50px;
+padding: 5px 20px 5px 20px;
+border: solid 50px blue;
+background-color: yellow;
+
+}
+
+div span.a {
+line-height: 0 !important;
+
+}
+
+div span.b {
+display: block;
+
+
+}
+
+div span.c {
+line-height: 50px;
+word-wrap: normal;
+}
+
+
+.catImg {
+position: fixed;
+right: 0px;
+bottom: 0px;
+padding-top:90%;
+}
+
+.dogImg
+{   
+margin-bottom: 150px;
+margin-left: 50px;
+
+}
+.notused
+{
+background-color:orange;
+}
+
+#positionMe
+{
+	
+
+}
+
+#positionMe img
+{
+  position: absolute; 
+z-index: 100;
+opacity: 0.9;
+padding-left: 550px;	
+	
+}
+
+#navigation
+{
+  background-color:green;
+  opacity:90%;
+  padding:50px 50px 50px 50px;
+  font-size:20px;
+}
